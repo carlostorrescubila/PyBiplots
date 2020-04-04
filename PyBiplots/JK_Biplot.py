@@ -75,14 +75,12 @@ class fit(object):
             self.exp_var = exp_var
 
             #Coordinates
-            ind = X @ V_t.T
-            self.coord_ind = pd.DataFrame(ind.values, 
+            self.coord_ind = pd.DataFrame((X @ V_t.T).values, 
                                           index = ind_tag, 
                                           columns=axis_tag)
-            vec = pd.DataFrame(V_t.T @ D, 
-                               index = vec_tag, 
-                               columns = axis_tag)
-            self.coord_var = vec
+            self.coord_var = pd.DataFrame(V_t.T, 
+                                          index = vec_tag, 
+                                          columns = axis_tag)
             
     def plot(self, axis = (1,2), groups = None, palette = None, convex_hull = False, ind_name = True, vec_name = True, 
              vec_color = 'black', name_fontsize = 13, axis_fontsize = 20, angle_vec_name = True, adjust_ind_name = False,

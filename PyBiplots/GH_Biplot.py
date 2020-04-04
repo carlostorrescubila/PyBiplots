@@ -75,10 +75,10 @@ class fit(object):
             self.exp_var = exp_var
 
             #Coordinates
-            ind = X @ V_t.T
-            self.coord_ind = pd.DataFrame(ind.values, 
-                                          index = ind_tag, 
-                                          columns=axis_tag)
+            ind = pd.DataFrame(np.matrix(U), 
+                               index = ind_tag, 
+                               columns = axis_tag)
+            self.coord_ind = ind
             vec = pd.DataFrame(V_t.T @ D, 
                                index = vec_tag, 
                                columns = axis_tag)
