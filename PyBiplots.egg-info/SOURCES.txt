@@ -1,0 +1,11 @@
+README.md
+setup.py
+PyBiplots.egg-info/PKG-INFO
+PyBiplots.egg-info/SOURCES.txt
+PyBiplots.egg-info/dependency_links.txt
+PyBiplots.egg-info/not-zip-safe
+PyBiplots.egg-info/requires.txt
+PyBiplots.egg-info/top_level.txt
+pybiplots/GH_Biplot.py
+pybiplots/HJ_Biplot.py
+pybiplots/JK_Biplot.py
