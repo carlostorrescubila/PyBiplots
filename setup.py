@@ -8,7 +8,7 @@ setup(name='pybiplots',
       description='Package to performance some biplots methods',
       url='https://github.com/carlostorrescubila',   
       license='MIT',
-      packages=['pybiplots'],
+      packages=['classic'],
       install_requires=[
           'numpy',
           'pandas',
