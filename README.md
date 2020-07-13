@@ -7,6 +7,18 @@
 ## Overview
 PyBiplots is a python package that performs the classic biplots methods. This methods are GH-Biplot, JK-Biplot and HJ-Biplot. 
 
+## Instalation
+* Install *PyBiplots* from **Anaconda Cloud**:
+```python
+pip install -i https://pypi.anaconda.org/carlos_t22/simple pybiplots
+```
+
+* Install *PyBiplots* from **GitHub**:
+```python
+git clone https://github.com/carlostorrescubila/pybiplots
+
+```
+
 ## Dependences 
 PyBiplots supports Python 3.6+ and no longer supports Python 2.
 
