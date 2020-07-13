@@ -1,0 +1,7 @@
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Specific folder
+/figs
