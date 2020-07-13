@@ -1,4 +1,7 @@
 # PyBiplots 
+[![Anaconda-Server Badge](https://anaconda.org/carlos_t22/pybiplots/badges/installer/pypi.svg)](https://pypi.anaconda.org/carlos_t22)
+[![Anaconda-Server Badge](https://anaconda.org/carlos_t22/pybiplots/badges/version.svg)](https://anaconda.org/carlos_t22/pybiplots)
+[![Anaconda-Server Badge](https://anaconda.org/carlos_t22/pybiplots/badges/latest_release_date.svg)](https://anaconda.org/carlos_t22/pybiplots)
 
 ## Overview
 PyBiplots is a python package that performs the classic biplots methods. This methods are GH-Biplot, JK-Biplot and HJ-Biplot. 
@@ -26,3 +29,7 @@ HJ = hj.fit(iris, Transform='Standardize columns')
 matplotlib.style.use("seaborn")
 HJ.plot(groups=load_iris().target, ind_name=False)
 ```
+
+## References 
+* Gabriel, K. R. (1971). The biplot graphic display of matrices with application to principal component analysis. Biometrika, 58(3), 453-467.
+* Galindo, M. P. (1986). Una alternativa de representacion simultanea: HJ-Biplot. Qüestiió, 10:13-23.
