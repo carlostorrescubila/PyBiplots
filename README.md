@@ -1,6 +1,5 @@
 # PyBiplots 
 [![Anaconda-Server Badge](https://anaconda.org/carlos_t22/pybiplots/badges/installer/pypi.svg)](https://pypi.anaconda.org/carlos_t22)
-[![Anaconda-Server Badge](https://anaconda.org/carlos_t22/pybiplots/badges/license.svg)](https://anaconda.org/carlos_t22/pybiplots)
 [![Anaconda-Server Badge](https://anaconda.org/carlos_t22/pybiplots/badges/version.svg)](https://anaconda.org/carlos_t22/pybiplots)
 
 ## Overview
@@ -14,8 +13,9 @@ pip install -i https://pypi.anaconda.org/carlos_t22/simple pybiplots
 
 * Install *PyBiplots* from **GitHub**:
 ```python
-git clone https://github.com/carlostorrescubila/pybiplots
-
+git clone https://github.com/carlostorrescubila/PyBiplots
+cd PyBiplots
+pip install .
 ```
 
 ## Dependences 
@@ -26,20 +26,19 @@ Installation requires [numpy](https://numpy.org/), [scipy](https://www.scipy.org
 ## Example
 ```python
 ## 1. Packages needed
-import pybiplots.classic.HJ_Biplot as hj
-import pandas as pd
+import pybiplots.HJ_Biplot as hj
+import statsmodels.api as sm
 import matplotlib
-from sklearn.datasets import load_iris
 
 ## 2. Load iris data
-iris = pd.DataFrame(data=load_iris().data, columns=load_iris().feature_names)
+mtcars = sm.datasets.get_rdataset('mtcars').data
 
 ## 3. Fit Biplot
-HJ = hj.fit(iris, Transform='Standardize columns')
+HJ = hj.fit(mtcars, Transform='Standardize columns')
 
 ## 4. Draw Biplot
 matplotlib.style.use("seaborn")
-HJ.plot(groups=load_iris().target, ind_name=False)
+HJ.plot(adjust_ind_name=True)
 ```
 
 ## References 
