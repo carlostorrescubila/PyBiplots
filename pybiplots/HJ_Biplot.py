@@ -266,8 +266,8 @@ class fit(object):
 
         # Print the tags of each individue
         if ind_name == True: 
-            x = ind.iloc[:,0]
-            y = ind.iloc[:,1]
+            x = ind.iloc[:,axis_x]
+            y = ind.iloc[:,axis_y]
             if adjust_ind_name == False:
                 for i in range(ind.shape[0]):
                     ax.text(x[i], y[i], 
