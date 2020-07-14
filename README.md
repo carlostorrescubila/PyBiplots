@@ -1,8 +1,5 @@
 # PyBiplots 
-[![Anaconda-Server Badge](https://anaconda.org/carlos_t22/pybiplots/badges/installer/pypi.svg)](https://pypi.anaconda.org/carlos_t22)
-[![Anaconda-Server Badge](https://anaconda.org/carlos_t22/pybiplots/badges/license.svg)](https://github.com/carlostorrescubila/PyBiplots/blob/master/LICENSE)
-[![Anaconda-Server Badge](https://anaconda.org/carlos_t22/pybiplots/badges/version.svg)](https://anaconda.org/carlos_t22/pybiplots)
-[![Anaconda-Server Badge](https://anaconda.org/carlos_t22/pybiplots/badges/latest_release_date.svg)](https://anaconda.org/carlos_t22/pybiplots)
+
 
 ## Overview
 PyBiplots is a python package that performs the classic biplots methods. This methods are GH-Biplot, JK-Biplot and HJ-Biplot. 
