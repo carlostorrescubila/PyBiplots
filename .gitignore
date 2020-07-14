@@ -4,5 +4,5 @@ dist/
 *.egg-info/
 
 # Specific folder
-/examples
-/plots
+examples/
+plots/
