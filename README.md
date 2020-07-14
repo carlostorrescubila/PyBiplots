@@ -41,6 +41,8 @@ matplotlib.style.use("seaborn")
 HJ.plot(adjust_ind_name=True)
 ```
 
+<img src="https://github.com/carlostorrescubila/PyBiplots/blob/master/plots/HJ_example.png" width="600">
+
 ## References 
-* Gabriel, K. R. (1971). The biplot graphic display of matrices with application to principal component analysis. Biometrika, 58(3), 453-467.
-* Galindo, M. P. (1986). Una alternativa de representacion simultanea: HJ-Biplot. Qüestiió, 10:13-23.
+* [Gabriel, K. R. (1971). The biplot graphic display of matrices with application to principal component analysis. *Biometrika*, 58(3), 453-467.](http://ggebiplot.com/Gabriel1971.pdf)
+* [Galindo, M. P. (1986). Una Alternativa de Representación Simultanea: HJ-Biplot. *Qüestiió*, 10:13-23.](http://diarium.usal.es/pgalindo/files/2012/07/0article-HJ-1986.pdf)
