@@ -30,7 +30,7 @@ import pybiplots.HJ_Biplot as hj
 import statsmodels.api as sm
 import matplotlib
 
-## 2. Load iris data
+## 2. Load mtcars data
 mtcars = sm.datasets.get_rdataset('mtcars').data
 
 ## 3. Fit Biplot
